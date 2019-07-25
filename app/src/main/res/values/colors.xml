@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#EDEDED</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_background">#EDEDED</color>
+    <color name="color_text_action_bar">#01634A</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_text">#333333</color>
+    <color name="color_background_for_item">#fff1ff</color>
+
+</resources>

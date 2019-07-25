@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Application_with_big_text_Use_JSOUP</string>
+
+    <string name="name_title">Виды динозавров</string>
+</resources>
