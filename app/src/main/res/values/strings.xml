@@ -2,4 +2,19 @@
     <string name="app_name">Application_with_big_text_Use_JSOUP</string>
 
     <string name="name_title">Виды динозавров</string>
+
+
+    <string name="gif_url_1">https://i.gifer.com/nSF.gif</string>
+    <string name="gif_url_2">https://i.gifer.com/bdq.gif</string>
+    <string name="gif_url_3">https://i.gifer.com/tFF.gif</string>
+
+    <string name="gif_url_4">https://i.gifer.com/o1O.gif</string>
+    <string name="gif_url_5">https://i.gifer.com/VeP.gif</string>
+    <string name="gif_url_6">https://i.gifer.com/nSB.gif</string>
+    <string name="gif_url_7">https://i.gifer.com/tFI.gif</string>
+    <string name="gif_url_8">https://i.gifer.com/tFK.gif</string>
+    <string name="gif_url_9">https://i.gifer.com/bdk.gif</string>
+    <string name="gif_url_10">https://i.gifer.com/nSH.gif</string>
+
+
 </resources>

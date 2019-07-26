@@ -5,17 +5,7 @@
             android:id="@+id/graph_navigation"
             app:startDestination="@id/splashFragment">
 
-    <fragment
-            android:id="@+id/listFragment"
-            android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.ListFragment"
-            android:label="ListFragment"
-            tools:layout="@layout/fragment_list">
-        <action
-                android:id="@+id/action_listFragment_to_splashFragment"
-                app:destination="@id/splashFragment"
-        />
-        <!--app:clearTask="true"-->
-    </fragment>
+
     <fragment
             android:id="@+id/splashFragment"
             android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.SplashFragment"
@@ -23,15 +13,80 @@
             tools:layout="@layout/fragment_splash">
         <action
                 android:id="@+id/action_splashFragment_to_listFragment"
-                app:destination="@id/listFragment"/>
-        <action
-                android:id="@+id/action_splashFragment_to_contentFragment"
-                app:destination="@id/contentFragment" app:popUpTo="@+id/listFragment"/>
-        <argument android:name="url" app:argType="string" android:defaultValue="null"/>
+                app:destination="@id/listFragment"
+                app:launchSingleTop="true"
+                app:popUpTo="@id/splashFragment"
+                app:popUpToInclusive="true"/>
     </fragment>
+
+    <fragment
+            android:id="@+id/listFragment"
+            android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.ListFragment"
+            android:label="ListFragment"
+            tools:layout="@layout/fragment_list">
+        <action
+                android:id="@+id/action_listFragment_to_splashFragment2"
+                app:destination="@id/splashFragment2"/>
+    </fragment>
+
     <fragment
             android:id="@+id/contentFragment"
             android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.ContentFragment"
             android:label="ContentFragment"
             tools:layout="@layout/fragment_content"/>
+    <fragment
+            android:id="@+id/splashFragment2"
+            android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.SplashFragment"
+            android:label="SplashFragment"
+            tools:layout="@layout/fragment_splash">
+        <action
+                android:id="@+id/action_splashFragment2_to_contentFragment"
+                app:destination="@id/contentFragment" app:popUpTo="@+id/listFragment"/>
+        <argument android:name="url" app:argType="string" android:defaultValue="null"/>
+    </fragment>
 </navigation>
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<navigation xmlns:android="http://schemas.android.com/apk/res/android"-->
+            <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+            <!--xmlns:tools="http://schemas.android.com/tools"-->
+            <!--android:id="@+id/graph_navigation"-->
+            <!--app:startDestination="@id/splashFragment">-->
+
+<!--<fragment-->
+        <!--android:id="@+id/listFragment"-->
+        <!--android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.ListFragment"-->
+        <!--android:label="ListFragment"-->
+        <!--tools:layout="@layout/fragment_list">-->
+    <!--<action-->
+            <!--android:id="@+id/action_listFragment_to_splashFragment"-->
+            <!--app:destination="@id/splashFragment"-->
+
+
+    <!--/>-->
+    <!--&lt;!&ndash;app:launchSingleTop="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:popUpTo="@id/splashFragment"&ndash;&gt;-->
+    <!--&lt;!&ndash;app:popUpToInclusive="true"&ndash;&gt;-->
+<!--</fragment>-->
+<!--<fragment-->
+        <!--android:id="@+id/splashFragment"-->
+        <!--android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.SplashFragment"-->
+        <!--android:label="SplashFragment"-->
+        <!--tools:layout="@layout/fragment_splash">-->
+    <!--<action-->
+            <!--android:id="@+id/action_splashFragment_to_listFragment"-->
+            <!--app:destination="@id/listFragment"/>-->
+    <!--<action-->
+            <!--android:id="@+id/action_splashFragment_to_contentFragment"-->
+            <!--app:destination="@id/contentFragment"-->
+            <!--app:popUpTo="@+id/listFragment"/>-->
+    <!--<argument android:name="url" app:argType="string" android:defaultValue="null"/>-->
+<!--</fragment>-->
+<!--<fragment-->
+        <!--android:id="@+id/contentFragment"-->
+        <!--android:name="com.CactusFromHell.application_with_big_text_use_jsoup.fragments.ContentFragment"-->
+        <!--android:label="ContentFragment"-->
+        <!--tools:layout="@layout/fragment_content"/>-->
+<!--</navigation>-->

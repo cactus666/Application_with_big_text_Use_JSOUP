@@ -8,6 +8,7 @@ import com.google.gson.GsonBuilder
 import java.io.ByteArrayOutputStream
 import java.io.IOException
 import java.io.InputStream
+import kotlin.concurrent.thread
 
 class Data(val name: String, val url: String)
 
@@ -21,11 +22,15 @@ class App: Application() {
     override fun onCreate() {
         super.onCreate()
 
-        val XmlFileInputStream: InputStream= resources.openRawResource(R.raw.list_data);
-        val jsonString = readTextFile(XmlFileInputStream)
+        thread(start  = true) {
+            val XmlFileInputStream: InputStream= resources.openRawResource(R.raw.list_data);
+            val jsonString = readTextFile(XmlFileInputStream)
 
-        val gson = GsonBuilder().create()
-        data_from_site = gson.fromJson(jsonString, Array<Data>::class.java).toList()
+            val gson = GsonBuilder().create()
+            data_from_site = gson.fromJson(jsonString, Array<Data>::class.java).toList()
+            DataController.getInstance(this.applicationContext).setDataInit(isReadyInApp = true)
+        }
+//        DataController.getInstance(this.applicationContext).setDateInit(true)
     }
 
     fun readTextFile(inputStream: InputStream): String {
