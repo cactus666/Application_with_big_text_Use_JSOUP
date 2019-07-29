@@ -55,6 +55,7 @@ class ListAdapter(context: Context, private val mData: List<Data>) : RecyclerVie
         override fun onClick(view: View) {
             val bundle = Bundle()
             bundle.putString("url", url)
+            bundle.putString("name", name.text.toString())
             navController.navigate(R.id.action_listFragment_to_splashFragment2, bundle)
         }
     }

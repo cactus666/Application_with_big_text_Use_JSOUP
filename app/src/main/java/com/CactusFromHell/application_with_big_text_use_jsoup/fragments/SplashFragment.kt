@@ -58,7 +58,8 @@ class SplashFragment: Fragment() {
                 liveDataMiddle.observe(this, Observer<String>() {
                     Log.d("debug", "work now")
                     val bundle = Bundle()
-//                    bundle.putStr
+                    bundle.putString("data", it)
+                    bundle.putString("name", arguments!!.getString("name")!!)
                     navController.navigate(R.id.action_splashFragment2_to_contentFragment, bundle)
                 })
             }

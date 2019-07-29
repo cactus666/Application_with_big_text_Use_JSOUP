@@ -38,6 +38,10 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     implementation 'org.jsoup:jsoup:1.10.2'
     implementation "android.arch.lifecycle:extensions:1.1.1"
+    // AppMetrica SDK.
+    implementation 'com.yandex.android:mobmetricalib:3.6.4'
+    // Optionally. Play Install Referrer library.
+    implementation 'com.android.installreferrer:installreferrer:1.0'
     annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

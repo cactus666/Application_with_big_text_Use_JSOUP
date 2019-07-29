@@ -43,6 +43,7 @@
                 android:id="@+id/action_splashFragment2_to_contentFragment"
                 app:destination="@id/contentFragment" app:popUpTo="@+id/listFragment"/>
         <argument android:name="url" app:argType="string" android:defaultValue="null"/>
+        <argument android:name="name" app:argType="string" android:defaultValue="null"/>
     </fragment>
 </navigation>
 

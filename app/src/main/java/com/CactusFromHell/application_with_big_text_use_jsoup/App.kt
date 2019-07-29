@@ -9,6 +9,10 @@ import java.io.ByteArrayOutputStream
 import java.io.IOException
 import java.io.InputStream
 import kotlin.concurrent.thread
+import com.yandex.metrica.YandexMetrica
+import com.yandex.metrica.YandexMetricaConfig
+
+
 
 class Data(val name: String, val url: String)
 
@@ -21,6 +25,13 @@ class App: Application() {
 
     override fun onCreate() {
         super.onCreate()
+
+        // Creating an extended library configuration.
+        val config = YandexMetricaConfig.newConfigBuilder("5e12de53-d4fc-4135-b8fb-4f59d7557103").build()
+        // Initializing the AppMetrica SDK.
+        YandexMetrica.activate(applicationContext, config)
+        // Automatic tracking of user activity.
+        YandexMetrica.enableActivityAutoTracking(this)
 
         thread(start  = true) {
             val XmlFileInputStream: InputStream= resources.openRawResource(R.raw.list_data);

@@ -5,7 +5,376 @@
   },
   {
     "name": "Алокодон",
-    "url": "http://dinosaurs.afly.ru/theropoda/106-allosaurus"
+    "url": "http://dinosaurs.afly.ru/ornithopoda/241-alocodon"
+  },
+  {
+    "name": "Алшазавр",
+    "url": "http://dinosaurs.afly.ru/therizinosauria/220-alxasaurus"
+  },
+  {
+    "name": "Аляскацефал",
+    "url": "http://dinosaurs.afly.ru/pachycephalosauria/255-alaskacephale"
+  },
+  {
+    "name": "Амтоцефал",
+    "url": "http://dinosaurs.afly.ru/pachycephalosauria/191-amtocephale"
+  },
+  {
+    "name": "Анкилозавр",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/76-ankylosaurus"
+  },
+  {
+    "name": "Апатозавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/125-apatosaurus"
+  },
+  {
+    "name": "Аргентинозавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/180-argentinosaurus"
+  },
+  {
+    "name": "Балохизавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/305-balochisaurus"
+  },
+  {
+    "name": "Бахариязавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/269-bahariasaurus"
+  },
+  {
+    "name": "Брахиозавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/77-brachiosaurus"
+  },
+  {
+    "name": "Ваньнанозавр",
+    "url": "http://dinosaurs.afly.ru/pachycephalosauria/217-wannanosaurus"
+  },
+  {
+    "name": "Велоцираптор",
+    "url": "http://dinosaurs.afly.ru/theropoda/68-velociraptor"
+  },
+  {
+    "name": "Вулканодон",
+    "url": "http://dinosaurs.afly.ru/sauropoda/200-vulcanodon"
+  },
+  {
+    "name": "Гаргойлеозавр",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/187-gargoyleosaurus"
+  },
+  {
+    "name": "Гастония",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/249-gastonia"
+  },
+  {
+    "name": "Гесперозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/198-hesperosaurus"
+  },
+  {
+    "name": "Гиганотозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/73-giganotosaurus"
+  },
+  {
+    "name": "Гипселоспин",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/207-hypselospinus"
+  },
+  {
+    "name": "Гипсироф",
+    "url": "http://dinosaurs.afly.ru/stegosauria/322-hypsirhophus"
+  },
+  {
+    "name": "Гойоцефал",
+    "url": "http://dinosaurs.afly.ru/pachycephalosauria/314-goyocephale"
+  },
+  {
+    "name": "Дейноних",
+    "url": "http://dinosaurs.afly.ru/theropoda/252-deinonychus"
+  },
+  {
+    "name": "Дилофозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/223-dilophosaurus"
+  },
+  {
+    "name": "Диплодок",
+    "url": "http://dinosaurs.afly.ru/sauropoda/58-diplodocus"
+  },
+  {
+    "name": "Дромеозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/179-dromaeosaurus"
+  },
+  {
+    "name": "Египтозавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/84-aegyptosaurus"
+  },
+  {
+    "name": "Жираффатитан",
+    "url": "http://dinosaurs.afly.ru/sauropoda/163-giraffatitan"
+  },
+  {
+    "name": "Зауролоф",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/79-saurolophus"
+  },
+  {
+    "name": "Игуанодон",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/70-iguanodon"
+  },
+  {
+    "name": "Камаразавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/227-camarasaurus"
+  },
+  {
+    "name": "Камптозавр",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/307-camptosaurus"
+  },
+  {
+    "name": "Карнотавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/235-carnotaurus"
+  },
+  {
+    "name": "Кархародонтозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/143-carcharodontosaurus"
+  },
+  {
+    "name": "Кентрозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/155-kentrosaurus"
+  },
+  {
+    "name": "Килеск",
+    "url": "http://dinosaurs.afly.ru/theropoda/284-kileskus"
+  },
+  {
+    "name": "Компсогнат",
+    "url": "http://dinosaurs.afly.ru/theropoda/88-compsognathus"
+  },
+  {
+    "name": "Краспедодон",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/278-craspedodon"
+  },
+  {
+    "name": "Кратерозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/262-craterosaurus"
+  },
+  {
+    "name": "Кэламаизавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/166-kelmayisaurus"
+  },
+  {
+    "name": "Лесотозавр",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/181-lesothosaurus"
+  },
+  {
+    "name": "Ликорин",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/99-lycorhinus"
+  },
+  {
+    "name": "Майюнгазавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/194-majungasaurus"
+  },
+  {
+    "name": "Массоспондил",
+    "url": "http://dinosaurs.afly.ru/sauropoda/55-massospondylus"
+  },
+  {
+    "name": "Мегалозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/101-megalosaurus"
+  },
+  {
+    "name": "Мегараптор",
+    "url": "http://dinosaurs.afly.ru/theropoda/312-megaraptor"
+  },
+  {
+    "name": "Медузацератопс",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/308-medusaceratops"
+  },
+  {
+    "name": "Насутоцератопс",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/210-nasutoceratops"
+  },
+  {
+    "name": "Ниппонозавр",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/276-nipponosaurus"
+  },
+  {
+    "name": "Нодозавр",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/104-nodosaurus"
+  },
+  {
+    "name": "Нотроних",
+    "url": "http://dinosaurs.afly.ru/therizinosauria/297-nothronychus"
+  },
+  {
+    "name": "Овираптор",
+    "url": "http://dinosaurs.afly.ru/theropoda/259-oviraptor"
+  },
+  {
+    "name": "Опистоцеликаудия",
+    "url": "http://dinosaurs.afly.ru/sauropoda/111-opisthocoelicaudia"
+  },
+  {
+    "name": "Орнитомим",
+    "url": "http://dinosaurs.afly.ru/theropoda/303-ornithomimus"
+  },
+  {
+    "name": "Паноплозавр",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/65-panoplosaurus"
+  },
+  {
+    "name": "Патаготитан",
+    "url": "http://dinosaurs.afly.ru/sauropoda/325-patagotitan"
+  },
+  {
+    "name": "Пахицефалозавр",
+    "url": "http://dinosaurs.afly.ru/pachycephalosauria/136-pachycephalosaurus"
+  },
+  {
+    "name": "Протоцератопс",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/89-protoceratops"
+  },
+  {
+    "name": "Пситтакозавр",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/247-psittacosaurus"
+  },
+  {
+    "name": "Раджазавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/133-rajasaurus"
+  },
+  {
+    "name": "Спинозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/61-spinosaurus"
+  },
+  {
+    "name": "Стегозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/48-stegosaurus"
+  },
+  {
+    "name": "Стегоцерас",
+    "url": "http://dinosaurs.afly.ru/pachycephalosauria/167-stegoceras"
+  },
+  {
+    "name": "Стиракозавр",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/184-styracosaurus"
+  },
+  {
+    "name": "Суперзавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/268-supersaurus"
+  },
+  {
+    "name": "Таларур",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/160-talarurus"
+  },
+  {
+    "name": "Тарбозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/185-tarbosaurus"
+  },
+  {
+    "name": "Теризинозавр",
+    "url": "http://dinosaurs.afly.ru/therizinosauria/195-therizinosaurus"
+  },
+  {
+    "name": "Техасет",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/313-texasetes"
+  },
+  {
+    "name": "Тираннозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/52-tyrannosaurus"
+  },
+  {
+    "name": "Тоцзянозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/173-tuojiangosaurus"
+  },
+  {
+    "name": "Трицератопс",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/67-triceratops"
+  },
+  {
+    "name": "Троодон",
+    "url": "http://dinosaurs.afly.ru/theropoda/205-troodon"
+  },
+  {
+    "name": "Уранозавр",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/122-ouranosaurus"
+  },
+  {
+    "name": "Урхозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/97-wuerhosaurus"
+  },
+  {
+    "name": "Фалкарий",
+    "url": "http://dinosaurs.afly.ru/therizinosauria/161-falcarius"
+  },
+  {
+    "name": "Ферганоцефал",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/286-ferganocephale"
+  },
+  {
+    "name": "Фукуизавр",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/128-fukuisaurus"
+  },
+  {
+    "name": "Хасмозавр",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/137-chasmosaurus"
+  },
+  {
+    "name": "Хуаянозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/226-huayangosaurus"
+  },
+  {
+    "name": "Целофизис",
+    "url": "http://dinosaurs.afly.ru/theropoda/64-coelophysis"
+  },
+  {
+    "name": "Цератозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/159-ceratosaurus"
+  },
+  {
+    "name": "Цзянцзюнозавр",
+    "url": "http://dinosaurs.afly.ru/stegosauria/300-jiangjunosaurus"
+  },
+  {
+    "name": "Цзяньчанозавр",
+    "url": "http://dinosaurs.afly.ru/therizinosauria/317-jianchangosaurus"
+  },
+  {
+    "name": "Чуаньдуноцелур",
+    "url": "http://dinosaurs.afly.ru/theropoda/292-chuandongocoelurus"
+  },
+  {
+    "name": "Шамозавр",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/285-shamosaurus"
+  },
+  {
+    "name": "Шаньдунозавр",
+    "url": "http://dinosaurs.afly.ru/ornithopoda/140-shantungosaurus"
+  },
+  {
+    "name": "Шувууйя",
+    "url": "http://dinosaurs.afly.ru/theropoda/169-shuvuuia"
+  },
+  {
+    "name": "Эвоплоцефал",
+    "url": "http://dinosaurs.afly.ru/ankylosauria/215-euoplocephalus"
+  },
+  {
+    "name": "Экриксинатозавр",
+    "url": "http://dinosaurs.afly.ru/theropoda/147-ekrixinatosaurus"
+  },
+  {
+    "name": "Эодромей",
+    "url": "http://dinosaurs.afly.ru/theropoda/320-eodromaeus"
+  },
+  {
+    "name": "Эрляньзавр",
+    "url": "http://dinosaurs.afly.ru/therizinosauria/256-erliansaurus"
+  },
+  {
+    "name": "Юньнанозавр",
+    "url": "http://dinosaurs.afly.ru/sauropoda/152-yunnanosaurus"
+  },
+  {
+    "name": "Ютараптор",
+    "url": "http://dinosaurs.afly.ru/theropoda/214-utahraptor"
+  },
+  {
+    "name": "Ямацератопс",
+    "url": "http://dinosaurs.afly.ru/ceratopsia/156-yamaceratops"
   }
+
 ]
 
